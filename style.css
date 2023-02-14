@@ -1,0 +1,33 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    background-color: #444;
+}
+#banner{
+    /* background-image: url("./23964.jpg"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width: 90%;
+  margin: auto;
+  /* height: 600px; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    margin-top: 3rem;
+    grid-gap: 10px;
+    grid-row-gap: 80px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #banner>div{
+    box-shadow: rgba(19, 18, 18, 0.781) 0px 4px 12px;
+    padding: 20px;
+    background-color: #fff;
+  }
